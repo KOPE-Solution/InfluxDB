@@ -1,4 +1,4 @@
-# InfluxDB : Chapter-2 Write and query data using the NodeJS
+# InfluxDB : Chapter-3 Write and query data using the NodeJS
 
 ## Install Dependencies
 
@@ -166,6 +166,6 @@ queryClient.queryRows(fluxQuery, {
 
 This will return the mean of the five values. ( (0+1+2+3+4) / 5 = 2 )
 
-[04](/04.png)
+![04](/04.png)
 
 ---
