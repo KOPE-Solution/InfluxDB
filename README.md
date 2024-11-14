@@ -23,7 +23,7 @@ Need to have [Arduino](https://www.arduino.cc/en/software) installed.
 ## Initialize Client
 <p>Select or Create a bucket : A bucket is used to store time-series data.</p>
 
-[01](/01.png)
+![01](/01.png)
 
 ### Configure an InfluxDB profile
 <p>Next we'll need to configure the client and its initial connection to InfluxDB. InfluxDB Cloud uses Tokens to authenticate API access. We've created an all-access token for you for this set up process.</p>
@@ -150,7 +150,7 @@ Waiting 1 second
 Writing: wifi_status,device=ESP32,SSID=KopeSolution rssi=-48i
 ```
 
-[02](/02.png)
+![02](/02.png)
 
 ## Review data concepts
 
@@ -315,6 +315,6 @@ void loop() {
     }
 ```
 
-[03](/03.png)
+![03](/03.png)
 
 ---
